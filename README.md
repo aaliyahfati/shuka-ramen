@@ -1,4 +1,4 @@
-# 🍜 Shuka Ramen - Digital Sanctuary
+# 🍜 Shuka Ramen
 
 **Shuka Ramen** adalah sebuah platform informasi visual terpusat yang menyajikan katalog menu premium dengan estetika minimalis. Dirancang untuk memberikan pengalaman eksplorasi kuliner Jepang yang imersif dan responsif.
 
