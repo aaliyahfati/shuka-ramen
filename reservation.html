@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation | Shuka Ramen</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Fonts and Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Serif:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <div id="navbar-placeholder"></div>
+    <main class="pt-5 mt-5 flex-grow-1">
+        <!-- Hero Section -->
+        <section class="container px-4 px-md-5 py-5 mb-5 mt-4">
+            <div class="row align-items-center g-5">
+                <div class="col-md-6 order-2 order-md-1">
+                    <span class="d-block text-primary fw-bold tracking-widest text-uppercase small mb-4" style="font-size: 0.75rem;">The Art of Dining</span>
+                    <h1 class="font-headline fw-bold text-on-background mb-4" style="font-size: clamp(3rem, 5vw, 4.5rem); line-height: 1.1;">
+                        Secure Your Seat at Our <span class="fst-italic fw-normal">Counter.</span>
+                    </h1>
+                    <p class="text-on-surface-variant fs-5 mb-5" style="max-width: 28rem; line-height: 1.7;">
+                        Kami ingin setiap kunjunganmu jadi momen yang spesial. Lewat reservasi, kami bisa memastikan tempatmu tersedia dan menyiapkan segalanya dengan lebih personal.
+                    <div class="d-flex align-items-center gap-4">
+                        <div class="bg-outline-variant" style="height: 1px; width: 3rem;"></div>
+                        <span class="font-headline fst-italic fs-5">Arrive as guests, leave as kin.</span>
+                    </div>
+                </div>
+                <div class="col-md-6 order-1 order-md-2 position-relative">
+                    <div class="overflow-hidden rounded-3" style="aspect-ratio: 4/5;">
+                        <img src="assets/img/menu-page/creamy-curry.png" class="w-100 h-100 object-fit-cover img-grayscale-hover" alt="Creamy Curry">
+                    </div>
+                    <div class="position-absolute bg-surface-container-lowest p-4 p-lg-5 shadow-sm d-none d-lg-block" style="bottom: -1.5rem; left: -1.5rem;">
+                        <p class="text-primary fs-1 font-headline fw-bold mb-0">8</p>
+                        <p class="text-on-surface-variant text-uppercase tracking-widest mb-0" style="font-size: 0.65rem;">Min seats per session</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reservation & Info Grid -->
+        <section class="bg-surface-container-low py-5 seigaiha-pattern">
+            <div class="container px-4 px-md-5 py-5">
+                <div class="row g-5">
+
+                    <div class="col-lg-4 d-flex flex-column gap-5">
+                        <div class="bg-surface-container-lowest p-4 p-md-5 rounded-3 shadow-sm">
+                            <h3 class="font-headline fs-4 fw-bold mb-4 d-flex align-items-center gap-3">
+                                <span class="material-symbols-outlined text-primary">schedule</span>
+                                Opening Hours
+                            </h3>
+                            <ul class="list-unstyled text-on-surface-variant d-flex flex-column gap-3 mb-0" style="font-size: 0.95rem;">
+                                <li class="d-flex justify-content-between border-bottom pb-2" style="border-color: var(--color-surface-variant) !important;">
+                                    <span>Tuesday - Friday</span>
+                                    <span class="fw-medium text-on-surface">16:00 - 22:00</span>
+                                </li>
+                                <li class="d-flex justify-content-between border-bottom pb-2" style="border-color: var(--color-surface-variant) !important;">
+                                    <span>Saturday - Sunday</span>
+                                    <span class="fw-medium text-on-surface">12:00 - 23:00</span>
+                                </li>
+                                <li class="d-flex justify-content-between pt-1">
+                                    <span>Monday</span>
+                                    <span class="text-primary fw-medium fst-italic">Closed</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="px-2">
+                            <h3 class="font-headline fs-4 fw-bold mb-4 d-flex align-items-center gap-3">
+                                <span class="material-symbols-outlined text-primary">info</span>
+                                House Rules
+                            </h3>
+                            <div class="d-flex flex-column gap-4">
+                                <div>
+                                    <p class="fw-medium text-on-surface mb-2">Grace Period</p>
+                                    <p class="text-on-surface-variant mb-0" style="font-size: 0.875rem; line-height: 1.7;">We hold tables for 15 minutes past the reservation time. After this, your table may be released to our waitlist.</p>
+                                </div>
+                                <div>
+                                    <p class="fw-medium text-on-surface mb-2">Dietary Requirements</p>
+                                    <p class="text-on-surface-variant mb-0" style="font-size: 0.875rem; line-height: 1.7;">Please inform us of any severe allergies at least 24 hours in advance so our chef can prepare accordingly.</p>
+                                </div>
+                                <div>
+                                    <p class="fw-medium text-on-surface mb-2">Large Groups</p>
+                                    <p class="text-on-surface-variant mb-0" style="font-size: 0.875rem; line-height: 1.7;">For parties larger than 12, please contact us directly via telephone for a curated dining experience.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8">
+                        <div class="bg-surface p-4 p-md-5 p-xl-5 rounded-3 border shadow-lg" style="border-color: rgba(228, 226, 221, 0.3) !important;">
+                            <div class="mb-5">
+                                <h2 class="font-headline display-6 fw-bold mb-3">Make a Reservation</h2>
+                                <p class="text-on-surface-variant">Select your preferred date and time. We look forward to serving you.</p>
+                            </div>
+                            <form id="reservation-form" class="row column-gap-4 row-gap-5">
+                                <div class="col-md-5">
+                                    <label class="form-label fw-bold text-uppercase tracking-widest text-on-surface-variant mb-3" style="font-size: 0.7rem;">Full Name</label>
+                                    <input type="text" id="input-name" class="form-control bg-transparent border-0 border-bottom rounded-0 py-2 px-0 shadow-none input-underline text-on-surface placeholder-dim" placeholder="Type your full name" style="border-color: var(--color-outline-variant);" required>
+                                </div>
+                                <div class="col-md-5">
+                                    <label class="form-label fw-bold text-uppercase tracking-widest text-on-surface-variant mb-3" style="font-size: 0.7rem;">Contact Email</label>
+                                    <input type="email" id="input-email" class="form-control bg-transparent border-0 border-bottom rounded-0 py-2 px-0 shadow-none input-underline text-on-surface placeholder-dim" placeholder="you@example.com" style="border-color: var(--color-outline-variant);" required>
+                                </div>
+                                <div class="col-md-5">
+                                    <label class="form-label fw-bold text-uppercase tracking-widest text-on-surface-variant mb-3" style="font-size: 0.7rem;">Dining Date</label>
+                                    <div class="position-relative">
+                                        <input type="date" id="input-date" class="form-control appearance-none bg-transparent border-0 border-bottom rounded-0 py-2 px-0 shadow-none input-underline text-on-surface" style="border-color: var(--color-outline-variant);" required>
+                                        <span class="material-symbols-outlined position-absolute end-0 top-50 translate-middle-y text-surface-dim pe-none" style="right: 0.5rem;">calendar_today</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <label class="form-label fw-bold text-uppercase tracking-widest text-on-surface-variant mb-3" style="font-size: 0.7rem;">Seating Time</label>
+                                    <div class="position-relative">
+                                        <select id="input-time" class="form-control appearance-none bg-transparent border-0 border-bottom rounded-0 py-2 px-0 shadow-none input-underline text-on-surface" style="border-color: var(--color-outline-variant);" required>
+                                            <option value="" disabled selected>Select time</option>
+                                            <option>17:00</option>
+                                            <option>17:30</option>
+                                            <option>18:30</option>
+                                            <option>19:30</option>
+                                            <option>20:00</option>
+                                            <option>20:30</option>
+                                            <option>21:00</option>
+                                        </select>
+                                        <span class="material-symbols-outlined position-absolute end-0 top-50 translate-middle-y text-surface-dim pe-none" style="right: 0.5rem;">expand_more</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <label class="form-label fw-bold text-uppercase tracking-widest text-on-surface-variant mb-3" style="font-size: 0.7rem;">Number of Guests</label>
+                                    <div class="d-flex align-items-center gap-4 py-1">
+                                        <button type="button" id="btn-decrease-guests" class="btn rounded-circle border d-flex align-items-center justify-content-center p-0 transition-colors hover-bg-low" style="width: 2.5rem; height: 2.5rem; border-color: var(--color-outline-variant) !important;">
+                                            <span class="material-symbols-outlined small">remove</span>
+                                        </button>
+                                        <span id="guest-count-display" class="fs-5 fw-medium text-center" style="width: 2rem;">8</span>
+                                        <input type="hidden" id="guest-count-input" name="guests" value="8">
+                                        <button type="button" id="btn-increase-guests" class="btn rounded-circle border d-flex align-items-center justify-content-center p-0 transition-colors hover-bg-low" style="width: 2.5rem; height: 2.5rem; border-color: var(--color-outline-variant) !important;">
+                                            <span class="material-symbols-outlined small">add</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col-12 mt-4">
+                                    <label class="form-label fw-bold text-uppercase tracking-widest text-on-surface-variant mb-3" style="font-size: 0.7rem;">Special Requests (Optional)</label>
+                                    <textarea id="input-requests" class="form-control bg-transparent border-0 border-bottom rounded-0 py-2 px-0 shadow-none input-underline text-on-surface placeholder-dim" rows="3" placeholder="Allergies, birthday celebrations, or seating preferences..." style="border-color: var(--color-outline-variant); resize: none;"></textarea>
+                                </div>
+                                <div class="col-12 pt-4">
+                                    <button type="button" id="btn-reserve-now" class="btn btn-primary w-100 py-3 rounded-1 fw-bold text-uppercase tracking-widest d-flex align-items-center justify-content-center gap-3 transition-all" style="font-size: 0.875rem;">
+                                        Reserve Now
+                                        <span class="material-symbols-outlined">arrow_right_alt</span>
+                                    </button>
+                                    <p class="text-center text-on-surface-variant mt-4 text-uppercase tracking-widest" style="font-size: 0.65rem;">By clicking "Reserve Now" you agree to our booking policy.</p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Signature Experience Preview -->
+        <section class="py-5 my-5">
+            <div class="container px-4 px-md-5">
+                <div class="d-flex flex-column flex-md-row gap-5 align-items-md-end mb-4">
+                    <div class="flex-grow-1">
+                        <h2 class="font-headline display-6 fw-bold mb-4">Awaits Your Arrival</h2>
+                        <p class="text-on-surface-variant" style="max-width: 36rem; line-height: 1.7;">Mulai dari uap panas kaldu sapi yang dimasak perlahan hingga tekstur mi yang kami buat dengan sepenuh hati, setiap elemen di Shuka Ramen hadir untuk membawamu merasakan suasana autentik Jepang langsung di setiap suapan.</p>
+                    </div>
+                    <div class="d-flex gap-3">
+                        <div class="overflow-hidden rounded-2" style="width: 8rem; height: 8rem;">
+                            <img src="assets/img/ramen-with-chopsticks.jpg" class="w-100 h-100 object-fit-cover" alt="Ramen with chopsticks">
+                        </div>
+                        <div class="overflow-hidden rounded-2" style="width: 8rem; height: 8rem;">
+                            <img src="assets/img/gallery-page/place2.png" class="w-100 h-100 object-fit-cover" alt="Restaurant interior">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Confirmation Modal -->
+    <div class="modal fade" id="confirmationModal" tabindex="-1" aria-labelledby="confirmationModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content border-0 shadow-lg rounded-4 overflow-hidden bg-surface">
+                <div class="modal-body p-4 p-sm-5">
+                    <h2 class="font-headline fs-3 fw-bold mb-4 text-on-surface" id="confirmationModalLabel">Confirm Your Reservation</h2>
+                    
+                    <div class="mb-5">
+                        <div class="row g-4 mb-5" style="font-size: 0.875rem;">
+                            <div class="col-6 border-bottom pb-3" style="border-color: rgba(228, 226, 221, 0.5) !important;">
+                                <p class="text-uppercase tracking-widest text-on-surface-variant fw-bold mb-1" style="font-size: 0.65rem;">Full Name</p>
+                                <p id="confirm-name" class="text-on-surface fw-medium mb-0">-</p>
+                            </div>
+                            <div class="col-6 border-bottom pb-3" style="border-color: rgba(228, 226, 221, 0.5) !important;">
+                                <p class="text-uppercase tracking-widest text-on-surface-variant fw-bold mb-1" style="font-size: 0.65rem;">Contact Email</p>
+                                <p id="confirm-email" class="text-on-surface fw-medium mb-0">-</p>
+                            </div>
+                            <div class="col-6 border-bottom pb-3" style="border-color: rgba(228, 226, 221, 0.5) !important;">
+                                <p class="text-uppercase tracking-widest text-on-surface-variant fw-bold mb-1" style="font-size: 0.65rem;">Date</p>
+                                <p id="confirm-date" class="text-on-surface fw-medium mb-0">-</p>
+                            </div>
+                            <div class="col-6 border-bottom pb-3" style="border-color: rgba(228, 226, 221, 0.5) !important;">
+                                <p class="text-uppercase tracking-widest text-on-surface-variant fw-bold mb-1" style="font-size: 0.65rem;">Time</p>
+                                <p id="confirm-time" class="text-on-surface fw-medium mb-0">-</p>
+                            </div>
+                            <div class="col-6 border-bottom pb-3" style="border-color: rgba(228, 226, 221, 0.5) !important;">
+                                <p class="text-uppercase tracking-widest text-on-surface-variant fw-bold mb-1" style="font-size: 0.65rem;">Guests</p>
+                                <p id="confirm-guests" class="text-on-surface fw-medium mb-0">-</p>
+                            </div>
+                            <div class="col-12 border-bottom pb-3" style="border-color: rgba(228, 226, 221, 0.5) !important;">
+                                <p class="text-uppercase tracking-widest text-on-surface-variant fw-bold mb-1" style="font-size: 0.65rem;">Special Requests</p>
+                                <p id="confirm-requests" class="text-on-surface fw-medium mb-0">-</p>
+                            </div>
+                        </div>
+                        <div class="bg-surface-container-low border border-dashed rounded-3 p-4 d-flex flex-column align-items-center justify-content-center gap-3 mb-4" style="border-color: var(--color-outline-variant) !important;">
+                            <div class="bg-surface-container-lowest border d-flex align-items-center justify-content-center rounded-2" style="width: 8rem; height: 8rem; border-color: var(--color-outline-variant) !important; opacity: 0.8;">
+                                <span class="material-symbols-outlined text-surface-dim" style="font-size: 2.5rem;">qr_code_2</span>
+                            </div>
+                            <p class="text-uppercase tracking-widest text-on-surface-variant mb-0" style="font-size: 0.65rem;">Reservation ID: SHK-9821</p>
+                        </div>
+                        <div class="p-3 rounded-2 border d-flex gap-3" style="background-color: #fdf2f2; border-color: rgba(248, 215, 218, 0.5) !important;">
+                            <span class="material-symbols-outlined text-primary mt-1">warning</span>
+                            <p class="mb-0 text-on-surface-variant" style="font-size: 0.875rem; line-height: 1.6;">
+                                Please confirm your reservation carefully. Cancellations made less than 24 hours before the scheduled time may incur a charge.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-sm-row gap-3">
+                        <button type="button" class="btn btn-primary flex-grow-1 py-3 rounded-2 fw-bold text-uppercase tracking-widest transition-all" style="font-size: 0.75rem;" data-bs-dismiss="modal">
+                            Confirm Reservation
+                        </button>
+                        <button type="button" class="btn border flex-grow-1 py-3 rounded-2 fw-bold text-uppercase tracking-widest text-on-surface-variant hover-bg-surface-variant transition-all" style="font-size: 0.75rem; border-color: var(--color-outline-variant) !important;" data-bs-dismiss="modal">
+                            Cancel
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer-placeholder"></div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

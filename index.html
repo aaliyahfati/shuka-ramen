@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shuka Ramen</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Fonts and Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div id="navbar-placeholder"></div>
+    <main>
+        <!-- Hero Section -->
+        <section class="position-relative vh-100 d-flex align-items-center overflow-hidden pt-5">
+            <div class="position-absolute top-0 start-0 w-100 h-100 z-0">
+                <img src="assets/img/hero-banner.png" class="w-100 h-100 object-fit-cover" alt="Hero Banner">
+                <div class="position-absolute top-0 start-0 w-100 h-100" style="background: linear-gradient(to right, rgba(27,28,25,0.8), transparent);"></div>
+            </div>
+            <div class="container position-relative z-1 px-4 px-md-5 mt-5">
+                <div style="max-width: 42rem;">
+                    <span class="badge rounded-pill fw-medium text-uppercase mb-4 py-2 px-3 tracking-widest" style="background-color: rgba(158,0,39,0.1); color: var(--bs-primary);">Nusantara Taste</span>
+                    <h1 class="font-headline text-white mb-4 lh-sm tracking-tight" style="font-size: clamp(3rem, 5vw, 4.5rem);">
+                        Authentic Japanese Ramen,
+                        <span style="color: var(--color-primary-fixed);">Crafted with Precision</span>
+                    </h1>
+                    <p class="text-white opacity-75 fs-5 mb-5 font-body" style="max-width: 32rem; line-height: 1.7;">
+                        Perpaduan tradisi Jepang dan sentuhan lokal yang diolah dengan gaya modern, disajikan dengan cita rasa yang pas di lidah Indonesia.
+                    </p>
+                    <div class="d-flex flex-wrap gap-3 mt-4">
+                        <a href="menu.html" class="btn btn-primary px-5 py-3 rounded-3 fs-5 fw-semibold shadow">View Menu</a>
+                        <a href="reservation.html" class="btn border border-light text-white px-5 py-3 rounded-3 fs-5 fw-semibold transition-all" style="background: rgba(255,255,255,0.1); backdrop-filter: blur(12px);">Reserve Table</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Highlights Section -->
+        <section class="py-5 bg-surface">
+            <div class="container py-5 px-4 px-md-5">
+                <div class="row g-5">
+                    <div class="col-md-4 d-flex flex-column align-items-center text-center">
+                        <span class="material-symbols-outlined text-primary mb-3" style="font-size: 3rem;">restaurant_menu</span>
+                        <h3 class="font-headline fs-4 fw-bold mb-3">Authentic Japanese Chef</h3>
+                        <p class="text-on-surface-variant font-body mb-0">Dipimpin langsung oleh Master Chef Kenji, menghadirkan lebih dari 20 tahun pengalaman kuliner Kyoto ke meja Anda.</p>
+                    </div>
+                    <div class="col-md-4 d-flex flex-column align-items-center text-center">
+                        <span class="material-symbols-outlined text-primary mb-3" style="font-size: 3rem;">eco</span>
+                        <h3 class="font-headline fs-4 fw-bold mb-3">Fresh Ingredients</h3>
+                        <p class="text-on-surface-variant font-body mb-0">Sayuran organik lokal berpadu dengan bahan pilihan yang diimpor langsung dari produsen terbaik Jepang.</p>
+                    </div>
+                    <div class="col-md-4 d-flex flex-column align-items-center text-center">
+                        <span class="material-symbols-outlined text-primary mb-3" style="font-size: 3rem;">water_drop</span>
+                        <h3 class="font-headline fs-4 fw-bold mb-3">Handcrafted Broth</h3>
+                        <p class="text-on-surface-variant font-body mb-0">Kaldu khas kami direbus perlahan selama 24 jam untuk menghasilkan rasa umami yang mendalam dan tekstur lembut.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="brush-divider mx-auto" style="max-width: 56rem;"></div>
+
+        <!-- Featured Menu Section -->
+        <section class="py-5 bg-surface-container-low">
+            <div class="container py-5 px-4 px-md-5">
+                <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end mb-5 gap-3">
+                    <div>
+                        <span class="text-primary fw-semibold tracking-widest text-uppercase small d-block mb-3" style="letter-spacing: 0.2em;">The Selection</span>
+                        <h2 class="font-headline display-5 mb-0">Signature Creations</h2>
+                    </div>
+                    <a href="menu.html" class="text-primary fw-bold text-decoration-none border-bottom border-2 border-primary pb-1 transition-all opacity-75-hover">Explore Entire Menu</a>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-7">
+                        <div class="bg-surface-container-lowest rounded-4 overflow-hidden shadow-sm h-100 group-hover">
+                            <div class="position-relative overflow-hidden" style="height: 24rem;">
+                                <img src="assets/img/menu-page/gyukotsu.jpg" class="w-100 h-100 object-fit-cover transition-transform-fast" alt="Aburi Beef Gyukotsu">
+                                <div class="position-absolute top-0 end-0 m-3 bg-primary text-white px-3 py-1 rounded-pill small fw-bold z-1">BEST SELLER</div>
+                            </div>
+                            <div class="p-4 p-md-5">
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <h3 class="font-headline fs-2 mb-0">Aburi Beef Gyukotsu</h3>
+                                    <span class="text-primary fs-3 fw-bold">68.0</span>
+                                </div>
+                                <p class="text-on-surface-variant mb-4 fs-5" style="line-height: 1.6;">Kuah kaldu tulang sapi kental hasil rebusan 24 jam, disajikan dengan mie lurus dan irisan daging sapi yang dibakar.</p>
+                                <div class="d-flex gap-2">
+                                    <span class="badge rounded-pill fw-normal px-3 py-2" style="background-color: var(--color-secondary-container); color: var(--color-on-secondary-container);">Classic</span>
+                                    <span class="badge rounded-pill fw-normal px-3 py-2" style="background-color: var(--color-secondary-container); color: var(--color-on-secondary-container);">Rich Umami</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="d-flex flex-column h-100 gap-4">
+                            <div class="bg-surface-container-lowest rounded-4 overflow-hidden shadow-sm d-flex flex-grow-1 group-hover-110">
+                                <div class="w-50 overflow-hidden">
+                                    <img src="assets/img/menu-page/spicy-miso.png" class="w-100 h-100 object-fit-cover transition-transform-fast" alt="Spicy Miso">
+                                </div>
+                                <div class="w-50 p-4 d-flex flex-column justify-content-center">
+                                    <h4 class="font-headline fs-5 mb-2">Spicy Miso</h4>
+                                    <p class="text-on-surface-variant small mb-3 line-clamp-2">Ramen dengan basis pasta miso pedas, topping daging cincang, jagung manis, dan telur rebus setengah matang.</p>
+                                    <span class="text-primary fw-bold">58.0</span>
+                                </div>
+                            </div>
+                            <div class="bg-surface-container-lowest rounded-4 overflow-hidden shadow-sm d-flex flex-grow-1 group-hover-110">
+                                <div class="w-50 overflow-hidden">
+                                    <img src="assets/img/menu-page/truffle-shoyu.png" class="w-100 h-100 object-fit-cover transition-transform-fast" alt="Truffle Shoyu">
+                                </div>
+                                <div class="w-50 p-4 d-flex flex-column justify-content-center">
+                                    <h4 class="font-headline fs-5 mb-2">Truffle Shoyu</h4>
+                                    <p class="text-on-surface-variant small mb-3 line-clamp-2">Kuah kecap asin Jepang yang bening dengan aroma minyak jamur truffle, disajikan bersama irisan daging dan rebung.</p>
+                                    <span class="text-primary fw-bold">75.0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Preview Section -->
+        <section class="py-5 bg-surface position-relative overflow-hidden">
+            <div class="position-absolute top-0 end-0 h-100 opacity-25 pe-none" style="width: 33%;">
+                <svg class="w-100 h-100" style="fill: var(--bs-body-color);" viewBox="0 0 100 100">
+                    <path d="M0,50 Q25,0 50,50 T100,50" fill="none" stroke="currentColor" stroke-width="0.5"></path>
+                    <path d="M0,60 Q25,10 50,60 T100,60" fill="none" stroke="currentColor" stroke-width="0.5"></path>
+                </svg>
+            </div>            
+            <div class="container py-5 px-4 px-md-5">
+                <div class="row align-items-center g-5">
+                    <div class="col-md-6 position-relative">
+                        <div class="bg-surface-container rounded-4 p-3" style="transform: rotate(2deg);">
+                            <img src="assets/img/chef-making-ramen.png" style="transform: rotate(-2deg);" alt="Chef making ramen">
+                        </div>
+                        <div class="position-absolute bottom-0 end-0 bg-primary text-white p-4 rounded-4 d-none d-lg-block" style="transform: translate(10%, 15%); box-shadow: 0 10px 30px rgba(158,0,39,0.3);">
+                            <p class="font-headline fs-1 fw-bold mb-0">20+</p>
+                            <p class="small text-uppercase opacity-75 mb-0 tracking-widest">Years of Mastery</p>
+                        </div>
+                    </div>                    
+                    <div class="col-md-6 ps-md-5">
+                        <span class="text-primary fw-semibold tracking-widest text-uppercase small d-block mb-3" style="letter-spacing: 0.2em;">Our Story</span>
+                        <h2 class="font-headline display-5 lh-sm mb-4">Taste Japan, Feel Home</h2>
+                        <p class="text-on-surface-variant fs-5 mb-4" style="line-height: 1.7;">
+                            Berawal dari kecintaan kami dengan mie khas Jepang, Shuka Ramen hadir buat kasih kamu pengalaman makan yang beda. Di sini, ramen bukan cuma soal kenyang, tetapi soal kualitas.
+                        </p>
+                        <p class="text-on-surface-variant fs-5 mb-5" style="line-height: 1.7;">
+                            Semua bahan yang kita pakai, dipilih dengan teliti dan dimasak perlahan agar rasanya umami. Kami ingin kalian bisa merasakan dedikasi yang kita tuang di setiap mangkoknya.
+                        </p>
+                        <a href="about.html" class="btn px-4 py-3 rounded-3 fw-bold d-inline-flex align-items-center gap-2 transition-all opacity-75-hover" style="background-color: var(--bs-body-color); color: var(--bs-body-bg);">
+                            Learn More <span class="material-symbols-outlined">arrow_forward</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="py-5 bg-surface-container">
+            <div class="container py-5 px-4 px-md-5">
+                <div class="text-center mb-5 pb-3">
+                    <h2 class="font-headline display-5 mb-3">Voice of the Table</h2>
+                    <p class="text-on-surface-variant fs-5">Shared moments from our community</p>
+                </div>                
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="bg-surface-container-lowest p-4 p-lg-5 rounded-4 shadow-sm h-100">
+                            <div class="text-primary-container mb-4 d-flex">
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">star</span>
+                            </div>
+                            <p class="fst-italic text-on-surface-variant mb-4" style="line-height: 1.7;">"Kuah Signature Gyukotsu-nya juara banget! Kaldu sapinya berasa banget, gurih, dan creamy. Ini beneran senagih itu sih!"</p>
+                            <div class="d-flex align-items-center gap-3">
+                                <div>
+                                    <p class="fw-bold mb-0">Andini Putri</p>
+                                    <p class="small text-on-surface-variant text-uppercase mb-0 tracking-widest" style="font-size: 0.75rem;">Influencer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="col-md-4">
+                        <div class="bg-surface-container-lowest p-4 p-lg-5 rounded-4 shadow-sm h-100">
+                            <div class="text-primary-container mb-4 d-flex">
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                            </div>
+                            <p class="fst-italic text-on-surface-variant mb-4" style="line-height: 1.7;">"Ramen terbaik yang pernah saya coba. Suasananya nyaman banget! Terus Shoyu Truffle-nya beneran seenak itu di rasanya."</p>
+                            <div class="d-flex align-items-center gap-3">
+                                <div>
+                                    <p class="fw-bold mb-0">Budi Pekerti</p>
+                                    <p class="small text-on-surface-variant text-uppercase mb-0 tracking-widest" style="font-size: 0.75rem;">Pelanggan Setia</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="col-md-4">
+                        <div class="bg-surface-container-lowest p-4 p-lg-5 rounded-4 shadow-sm h-100">
+                            <div class="text-primary-container mb-4 d-flex">
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0.5;">star</span>
+                            </div>
+                            <p class="fst-italic text-on-surface-variant mb-4" style="line-height: 1.7;">"Tekstur mi-nya pas banget, kenyal dan nggak gampang lembek. Porsinya juga ngenyangin dengan topping daging yang nggak pelit. Wajib coba!"</p>
+                            <div class="d-flex align-items-center gap-3">
+                                <div>
+                                    <p class="fw-bold mb-0">Siti Fatimah</p>
+                                    <p class="small text-on-surface-variant text-uppercase mb-0 tracking-widest" style="font-size: 0.75rem;">Food Vloggerr</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-5 bg-surface">
+            <div class="container py-5 px-4 px-md-5">
+                <div class="position-relative bg-primary rounded-4 overflow-hidden py-5 px-4 text-center text-white shadow-lg" style="padding-top: 5rem !important; padding-bottom: 5rem !important;">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 opacity-10" style="background-image: url('https://www.transparenttextures.com/patterns/handmade-paper.png'); background-repeat: repeat;"></div>
+                    <div class="position-relative z-1">
+                        <h2 class="font-headline mb-4" style="font-size: clamp(2.5rem, 4vw, 3.5rem);">Ready for a Culinary Journey?</h2>
+                        <p class="fs-5 opacity-75 mb-5 mx-auto" style="max-width: 40rem;">Yuk, mampir dan rasakan perpaduan rasa yang pas dalam suasana yang nyaman. Meja kita cepat penuh, jadi pastikan kamu dapat tempat hari ini!</p>
+                        <div class="d-flex flex-column flex-sm-row justify-content-center gap-3">
+                            <a href="reservation.html" class="btn btn-light text-primary px-5 py-3 rounded-3 fs-5 fw-bold transition-all">Reserve My Table</a>
+                            <a href="contact.html" class="btn btn-outline-light px-5 py-3 rounded-3 fs-5 fw-bold transition-all border-2">Call for Inquiries</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
