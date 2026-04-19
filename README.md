@@ -1,14 +1,14 @@
 # 🍜 Shuka Ramen
 
-**Shuka Ramen** adalah sebuah platform informasi visual terpusat yang menyajikan katalog menu premium dengan estetika minimalis. Dirancang untuk memberikan pengalaman eksplorasi kuliner Jepang yang imersif dan responsif.
+**Shuka Ramen** adalah platform digital minimalis yang dirancang untuk memudahkan pelanggan melakukan reservasi meja dan mengeksplorasi menu andalan kami secara eksklusif.
 
 ---
 
 ## ✨ Fitur Utama
-* **Interactive Menu:** Katalog lengkap mulai dari Main Course hingga Side Dishes.
-* **Responsive Design:** Tampilan optimal di berbagai perangkat (Mobile, Tablet, Desktop).
-* **Premium UI/UX:** Menggunakan estetika Dark Mode dengan aksen minimalis.
-* **Information Hub:** Informasi terpadu mengenai filosofi brand, detail produk, dan harga.
+* **Reservation:** Sistem pemesanan meja yang mudah diakses untuk menjamin kenyamanan makan Anda.
+* **Menu Display:** Menampilkan pilihan menu favorit dengan informasi harganya.
+* **Fully Responsive:** Navigasi lancar di smartphone maupun desktop.
+* **Premium Interface:**
 
 ## 🛠️ Tech Stack
 * **HTML5** - Struktur konten web.
@@ -17,7 +17,7 @@
 * **JavaScript** - Interaksi fungsional pada halaman.
 
 ## 🚀 Live Demo
-Lihat webnya di sini: [aaliyahfati.github.io/shuka-ramen/](https://aaliyahfati.github.io/shuka-ramen/)
+Lihat webnya di sini: [Buka Web Shuka Ramen](https://aaliyahfati.github.io/shuka-ramen/)
 
 ---
-*Project ini dikembangkan sebagai bagian dari Student Project - Front-End Development.*
+*Project ini dikembangkan sebagai bagian dari Student Project.*
